@@ -3,7 +3,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:market_kurly/constants.dart';
 import 'package:market_kurly/screens/recommend/recommend_screen.dart';
 import 'package:market_kurly/screens/search/search_screen.dart';
-
 import '../models/nav_item.dart';
 import 'category/category_screen.dart';
 import 'home/home_screen.dart';
