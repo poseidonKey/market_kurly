@@ -23,11 +23,11 @@ class _MainScreensState extends State<MainScreens> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: IndexedStack(index: _selectedIndex, children: [
-        HomeScreen(),
+        const HomeScreen(),
         RecommendScreen(),
-        CategoryScreen(),
-        MyKurlyScreen(),
+        const CategoryScreen(),
         SearchScreen(),
+        const MyKurlyScreen(),
       ]),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
